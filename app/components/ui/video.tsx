@@ -1,6 +1,10 @@
-export function Video() {
+interface VideoProps {
+  url: string
+}
+
+export const Video = ({ url }: VideoProps) => {
   return (
-    <div className="relative left-[-16px] md:left-[-317px] flex justify-center mb-3 w-screen">
+    <div className="relative left-[-16px] md:static flex justify-center mb-3 md:pt-4 w-screen md:w-fit md:h-fit">
       <video
         autoPlay
         loop
@@ -8,7 +12,7 @@ export function Video() {
         playsInline
         className="w-full object-cover"
       >
-        <source src="/bg-video.mp4" type="video/mp4" />
+        <source src={url} type="video/mp4" />
       </video>
     </div>
   )
