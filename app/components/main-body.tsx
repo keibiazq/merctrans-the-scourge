@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { Video } from "./ui/video";
 import { Divider } from "./ui/divider";
-import { DropCap } from "./ui/drop-cap";
-import { LuxCap } from "./ui/lux-cap";
 import TextBlock from "./ui/better-drop-cap";
 
 const MainBody = () => {
