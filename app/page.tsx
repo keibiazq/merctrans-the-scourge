@@ -3,7 +3,7 @@ import MainBody from "./components/main-body";
 
 export default function Home() {
   return (
-    <div className="max-h-[164px]">
+    <div>
       <div>
         <Header />
       </div>
