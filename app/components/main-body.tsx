@@ -61,7 +61,7 @@ const MainBody = () => {
               &ldquo;Let&apos;s keep its haunting structure,&rdquo; Herc suggested, &ldquo;but adapt the words to something a Western player can understand and feel in their gut.&rdquo; And so, they set about rewriting, haunted by each line&apos;s cryptic message.
             </p>
           </div>
-          <div className="relative left-[-4vw] md:left-0 grid grid-rows-3 m-0 pb-[3vw] md:pb-[0px] w-screen md:w-fit">
+          <div className="relative left-[-4vw] md:left-0 grid grid-rows-3 m-0 pb-[4vw] md:pb-[0px] w-screen md:w-fit">
             <Image
               src="/1.png"
               alt="1"
