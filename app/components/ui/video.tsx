@@ -4,7 +4,7 @@ interface VideoProps {
 
 export const Video = ({ url }: VideoProps) => {
   return (
-    <div className="relative left-[-16px] md:static flex justify-center mb-3 md:pt-4 w-screen md:w-fit md:h-fit">
+    <div className="relative left-[-4vw] md:static flex justify-center mb-[2vw] w-screen md:w-fit md:h-fit">
       <video
         autoPlay
         loop
