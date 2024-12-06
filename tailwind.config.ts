@@ -26,6 +26,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        header: "url('/banner-bg.png')",
+      },
       fontFamily: {
         rufina: ["var(--font-rufina)"],
         luxurious: ["var(--font-luxurious)"],

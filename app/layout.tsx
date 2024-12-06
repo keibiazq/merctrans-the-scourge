@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Rufina, Luxurious_Script } from "next/font/google";
+import { Header } from "./components/header";
 
 
 const rufina = Rufina({
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${rufina.className} text-[#CDCDCD]`}
       >
+        <Header />
         {children}
       </body>
     </html>

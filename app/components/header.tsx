@@ -1,37 +1,29 @@
 "use client"
 
-import Image from "next/image"
-
 export const Header = () => {
 
   return (
-    <div className="relative z-50 text-[#FFFFFF]">
-      <Image
-        alt="banner"
-        src="/banner-bg.png"
-        width="1440"
-        height="637"
-        className="z-0 w-full"
-      />
-      <div className="top-0 absolute pt-[calc(100vw*637/1440/2)]">
-        <div className="flex flex-col pl-[4vw] text-[5vw]">
-          <div className="z-50">
+    <div className="bg-header bg-cover bg-center w-screen min-h-[164px] text-[#FFFFFF] aspect-[375/165.89]">
+      <div className="mx-auto max-w-7xl">
+        <div className="flex flex-col ml-3 pt-[20%] text-[22.4px] md:text-[86px]">
+          <div className="relative top-1 leading-none">
             MERCTRANS
           </div>
-          <div className="relative top-[-5.5vw] flex flex-row items-center pl-[3vw] ]">
-            <div className="text-[11vw]">
-              &
+          <div className="pl-4">
+            <div className="flex flex-row items-center">
+              <div className="text-[40px] leading-none">
+                &
+              </div>
+              <div>
+                THE SCOURGE
+              </div>
             </div>
-            <div>
-              THE SCOURGE
+            <div className="text-[#F5F5F5] text-[10px]">
+              A Ghost-Hunting Tale of Game Localization
             </div>
-          </div>
-          <div className="relative top-[-9vw] pl-[3vw] text-[3vw]">
-            A Ghost-Hunting Tale of Game Localization
           </div>
         </div>
       </div>
-
     </div>
   )
 }
