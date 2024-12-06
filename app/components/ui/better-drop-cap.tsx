@@ -19,13 +19,11 @@ export default function DropCap({ content }: DropCapProps) {
 
   return (
     <div>
-      <div className="relative">
-        <p className="text-justify">
-          <span className="float-left mr-2 h-fit text-[102px] leading-[0.7]">
-            {firstChar}
-          </span>
-          {(highlightTheScourge(restOfText))}
-        </p>
+      <div className="text-justify md:text-xl">
+        <span className="float-left mr-2 h-fit text-[102px] leading-[0.8]">
+          {firstChar}
+        </span>
+        {(highlightTheScourge(restOfText))}
       </div>
     </div>
   );
