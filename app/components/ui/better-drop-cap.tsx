@@ -13,7 +13,7 @@ export default function DropCap({ content }: DropCapProps) {
   const highlightTheScourge = (text?: string) => {
     const parts = text?.split(/\b(The Scourge)\b/);
     return parts?.map((part, index) =>
-      part === 'The Scourge' ? <span key={index} className="text-[#9C1515]">{part}</span> : part
+      part === 'The Scourge' ? <span key={index} className="text-scourge">{part}</span> : part
     );
   };
 
@@ -21,7 +21,7 @@ export default function DropCap({ content }: DropCapProps) {
     <div>
       <div className="relative">
         <p className="text-justify">
-          <span className="relative top-[2.4vw] md:top-[1px] float-left mr-2 text-[22vw] md:text-[102px] leading-[0.65] md:leading-[0.8]">
+          <span className="float-left mr-2 h-fit text-[102px] leading-[0.7]">
             {firstChar}
           </span>
           {(highlightTheScourge(restOfText))}

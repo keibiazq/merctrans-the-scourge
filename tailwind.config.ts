@@ -28,10 +28,15 @@ module.exports = {
     extend: {
       backgroundImage: {
         header: "url('/banner-bg.png')",
+        body: "url('/abstract-watercolor-frame.png')",
+        "body-sm": "url('/background.svg')",
       },
       fontFamily: {
         rufina: ["var(--font-rufina)"],
         luxurious: ["var(--font-luxurious)"],
+      },
+      colors: {
+        scourge: "#9C1515",
       },
     },
   },

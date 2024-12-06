@@ -20,5 +20,5 @@ body {
 }
 
 div > p {
-  padding-bottom: 0.75rem;
+  padding-bottom: 16px;
 }
