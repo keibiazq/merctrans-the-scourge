@@ -9,7 +9,7 @@ const MainBody = () => {
 
   return (
     <div className="flex flex-col items-center bg-body-sm md:bg-body bg-contain py-7 w-full text-base text-justify self-start">
-      <div className="w-full md:w-fit">
+      <div className="w-full md:w-fit tracking-[-0.04em]">
         <div className="px-4 max-w-[840px]">
           <div className="md:gap-8 md:grid md:grid-cols-2">
             <DropCap content="IN the flickering glow of their lanterns, Merc and Herc — two seasoned ghost hunters — found themselves staring up  at the decaying facade of an old Saigon apartment complex, rumored to be haunted by a spirit. But this wasn&apos;t just any ghost hunt. No, Merc and Herc were there on a mission for MercTrans: to exorcize the elusive spirit of “The Scourge” from Vietnamese and capture it into English. But nothing could have prepared them for what lay in the bowels of this building." />
@@ -30,8 +30,8 @@ const MainBody = () => {
             <LuxCap title="Translating spiritual concepts" />
           </div>
 
-          <div className="md:gap-8 md:grid md:grid-cols-2">
-            <div className="relative right-4 md:static flex justify-center mb-7 w-screen md:w-full aspect-[375/808.54] md:aspect-[410/772]">
+          <div className="md:gap-8 md:grid md:grid-cols-2 md:pt-2">
+            <div className="relative right-4 md:static flex justify-center mb-7 md:mb-0 w-screen md:w-full aspect-[375/808.54] md:aspect-[410/810]">
               <Video url="/01.mp4" />
             </div>
             <div>
@@ -48,7 +48,7 @@ const MainBody = () => {
           <Divider />
           <LuxCap title="Poetry and its challenges" />
 
-          <div className="md:gap-8 md:grid md:grid-cols-2">
+          <div className="md:gap-8 md:grid md:grid-cols-2 md:pb-4">
             <div>
               <DropCap content="THEY turned down another hallway, where the ghost had left eerie scrawlings on the walls. “Look,” whispered Merc, “it&apos;s a poem—a verse that sounds like a warning.” The words had a lyrical flow in Vietnamese, deeply tied to the rhythm and wordplay of the language. But how to render it in English?" />
               <p className="md:text-xl">
@@ -70,7 +70,7 @@ const MainBody = () => {
           <Divider />
           <LuxCap title="Playing word games" />
 
-          <div className="md:gap-8 md:grid md:grid-cols-2">
+          <div className="md:gap-8 md:grid md:grid-cols-2 md:pb-4">
             <div className="order-1">
               <DropCap content="THEY continued deeper into the complex, where Herc almost stepped on several abandoned — pieces of paper. A single faded word rested in the center of each, the remnants of a Vietnamese word game. “Ah, here we go,” Herc groaned. “How did we get this one into English again?”" />
               <p className="md:text-xl">
